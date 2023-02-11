@@ -1,0 +1,35 @@
+html,
+body {
+    color: rgba(255,255,255,200);
+    background-color: #121212;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@keyframes zap-svg-ease {
+    0% {      clip-path: inset(10000px 100000px 10000px 0px);     }
+    100% {     clip-path: inset(10000px 100000px 10000px 200px);     }
+}
+.zap-svg-animation {
+    animation: zap-svg-ease 1.2s ease-in-out;
+    width: 200px;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
